@@ -45,11 +45,11 @@ class WeatherData {
 
 class WeatherInfo {
   final String main;
-  final String icon; 
+  final String icon;
 
   WeatherInfo({
     required this.main,
-    required this.icon, 
+    required this.icon,
   });
 
   factory WeatherInfo.fromJson(Map<String, dynamic> json) {

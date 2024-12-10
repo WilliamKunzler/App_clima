@@ -1,12 +1,15 @@
 import 'dart:convert';
-import 'package:clima/model/preview.dart';
 import 'package:http/http.dart' as http;
 import 'package:clima/model/tempoNow.dart';
+import 'package:clima/model/preview.dart';
 
 class WeatherServices {
+  String? city = '';
+
+  WeatherServices({this.city = 'Tóquio'});
+
   final String baseUrl = 'https://api.openweathermap.org/data/2.5';
-  final String apiKey = '';
-  final String city = 'Lisboa';
+  final String apiKey = '';  // adicione aqui sua chave da API
 
   Future<WeatherData> fetchWeather() async {
     final response = await http.get(Uri.parse(
