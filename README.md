@@ -19,5 +19,17 @@
 ## Como Instalar e Usar
 
 1. Clone o repositório para sua máquina local:
+   
    ```bash
    git clone https://github.com/WilliamKunzler/App_clima.git
+
+2. Abra o projeto no Android Studio ou no VSCode com Flutter configurado.
+
+3. Execute os comandos:
+
+   ```bash
+   flutter pub get
+   flutter run
+   
+4. Use um dispositivo físico ou emulador para testar o aplicativo.
+
