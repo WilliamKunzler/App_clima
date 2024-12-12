@@ -1,7 +1,6 @@
-## Climatize  
+#### Climatize
 
-
-**O que é o Climatize?**  
+## O que é o Climatize? 
 
 Um aplicativo de previsão do tempo desenvolvido em Flutter. Ele utiliza a API do OpenWeatherMap para buscar dados climáticos em tempo real e exibir informações detalhadas sobre as condições meteorológicas de diferentes localidades.
 
